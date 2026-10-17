@@ -49,6 +49,10 @@ nav { display: flex; gap: 6px; padding: 6px; border: 1px solid rgba(18,23,20,.06
 nav a { padding: 8px 14px; border-radius: 999px; color: #3f4842; font-size: 12px; text-decoration: none; }
 nav a:hover { background: var(--canvas); color: var(--ink); }
 .header-cta { justify-self: end; padding: 11px 18px; border-radius: 999px; background: var(--ink); color: white; font-size: 12px; font-weight: 700; text-decoration: none; }
+.header-actions { justify-self: end; display: flex; align-items: center; gap: 8px; }
+.language-toggle { min-width: 48px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 999px; background: rgba(255,255,255,.72); color: var(--ink); font: inherit; font-size: 11px; font-weight: 800; cursor: pointer; }
+.language-toggle:hover { border-color: var(--green); color: var(--green); }
+.language-toggle:focus-visible { outline: 3px solid rgba(46,107,72,.25); outline-offset: 2px; }
 
 .hero { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(380px, .75fr); gap: clamp(48px, 8vw, 118px); align-items: center; min-height: 760px; padding-block: 86px 96px; }
 .eyebrow, .section-label { margin: 0; color: var(--green); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; font-weight: 750; letter-spacing: .12em; }
@@ -198,6 +202,8 @@ footer a { text-decoration: none; }
   .shell { width: min(100% - 36px, var(--max)); }
   .header { width: calc(100% - 28px); }
   .identity > span:last-child { display: none; }
+  .header-actions { gap: 6px; }
+  .language-toggle { min-width: 44px; padding-inline: 10px; }
   .hero { padding-block: 70px; }
   h1 { font-size: clamp(44px, 13vw, 68px); }
   .hero-actions { align-items: stretch; flex-direction: column; }
