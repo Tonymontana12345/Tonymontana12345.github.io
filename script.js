@@ -43,7 +43,7 @@ function setLanguage(language) {
   description.setAttribute(
     'content',
     isEnglish
-      ? 'Tony Montana’s AI developer portfolio, featuring 15 years of semiconductor equipment software and middleware experience alongside RAG, AI agent, and edge AI projects.'
+      ? 'Tony Montana’s AI developer portfolio, featuring 15 years of experience in semiconductor equipment software and middleware, along with projects in RAG, AI agents, and edge AI.'
       : 'Tony Montana의 AI 개발자 포트폴리오. 15년간의 반도체 장비 SW·미들웨어 경험과 RAG, AI Agent, Edge AI 프로젝트를 소개합니다.'
   );
 
