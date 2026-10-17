@@ -150,11 +150,12 @@ h1 em { color: var(--green); font-style: normal; }
 .experience-copy { padding-top: 46px; }
 .experience-lead { margin: 0; color: #28332c; font-size: clamp(21px, 2vw, 29px); line-height: 1.6; letter-spacing: -.025em; word-break: keep-all; }
 .experience-copy > p:nth-child(2) { color: var(--muted); font-size: 13px; line-height: 1.8; }
+.experience-kicker { margin: 0; color: var(--green); font-size: 14px; font-weight: 800; letter-spacing: -.01em; }
 .experience-list { margin-top: 42px; border-top: 1px solid var(--line); }
-.experience-list div { display: grid; grid-template-columns: 42px 210px 1fr; gap: 18px; align-items: center; padding: 18px 0; border-bottom: 1px solid var(--line); }
+.experience-list div { display: grid; grid-template-columns: 42px 170px 1fr; gap: 18px; align-items: start; padding: 22px 0; border-bottom: 1px solid var(--line); }
 .experience-list span { color: var(--green); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10px; }
 .experience-list strong { font-size: 13px; }
-.experience-list p { margin: 0; color: var(--muted); font-size: 12px; }
+.experience-list p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.75; word-break: keep-all; }
 
 .compact-head { margin-bottom: 48px; }
 .toolkit { border-top: 1px solid var(--line); }
