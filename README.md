@@ -1,4 +1,4 @@
-# 이준한 GitHub Portfolio
+# Tony Montana GitHub Portfolio
 
 개인 프로젝트 중심의 정적 포트폴리오입니다. 별도의 빌드 과정 없이 GitHub Pages에 배포할 수 있습니다.
 
